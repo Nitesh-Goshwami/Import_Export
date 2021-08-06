@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+
+    #data{
+        display: grid;
+        grid-template-columns: repeat(2,30%);
+        grid-column-gap: 15%;
+        grid-row-gap: 1%;
+        justify-content: center;
+        padding: 5%;
+    }
+    #prodDiv{
+        height: 250px !important;
+    }
+    #logo {
+    height:50px !important;
+    margin-top: 5px !important;
+}
+
+    img{
+        height: 80% !important;
+    }
+    h4{
+        height: 20% !important;
+        /* margin: 0px; */
+    }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+<script type="module">
+    import myNavbar from './components/navbar.js'
+    document.body.innerHTML = myNavbar();
+</script>
+
+<script src="scripts\latest.js"></script>
+

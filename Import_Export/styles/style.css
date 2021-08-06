@@ -1,0 +1,59 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-bottom: 1px solid grey;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.options h3{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#logo {
+    height:50px;
+    margin-top: 5px;
+}
+
+#data{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    grid-column-gap: 15%;
+    grid-row-gap: 5%;
+    justify-content: center;
+    padding: 5%;
+}
+
+#userInput{
+    height: 25px;
+    width: 320px;
+    padding-left: 10px;
+}
+
+#searchbutton{
+    height: 30px;
+    margin-left: 5px;
+    width: 80px;
+}
+
+a {color:#f8baba;}        
+a:visited {color:rgb(46, 151, 185);} 
+a:hover {color:#FF00FF;}   
+a:active {color:#0000FF;}  
+
+
+#prodDiv{
+    height: 500px;
+}
+
+#descDiv{
+    height: 50%;
+    width: 100%;
+    border-top: none;
+    overflow-y: scroll;
+}
